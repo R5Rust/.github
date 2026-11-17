@@ -17,6 +17,7 @@ No game assets are distributed; everything is extracted from your own install.
 | [R5Rust](https://github.com/R5Rust/R5Rust) | The game: wgpu client, dedicated server stub, shared movement sim, docs on every ported system |
 | [export-map](https://github.com/R5Rust/export-map) | Builds map data (geometry, real collision, lighting lumps, cubemaps, materials) from your own Apex install |
 | [r5f-probe](https://github.com/R5Rust/r5f-probe) | Ground truth: plays scripted inputs and camera poses in real R5Flowstate and logs/screenshots them |
+| [docs](https://github.com/R5Rust/docs) | How the Apex mechanics work and how R5Rust reproduces them: movement so far |
 
 ## Where it is
 
