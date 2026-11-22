@@ -4,6 +4,16 @@ A from-scratch **Rust** reimplementation of Apex Legends' Firing Range: renderin
 weapons and ziplines ported from the game's own decompiled code and shaders, and measured against R5Flowstate.
 No game assets are distributed; everything is extracted from your own Apex install.
 
+## Download
+
+[![Download R5Rust Launcher for Windows](https://img.shields.io/badge/Download-R5Rust%20Launcher%20for%20Windows-c8102e?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/R5Rust/launcher/releases/latest/download/R5Rust-Launcher.exe)
+
+1. Run **R5Rust-Launcher.exe** (it installs itself; if Windows says "protected your PC", press More info > Run anyway).
+2. **Download** the game, then **Install**: it builds the game files from your own Apex Legends install (close Apex first).
+3. **Play**. The launcher keeps the game and itself up to date.
+
+Windows 10/11, x64. You need Apex Legends installed (EA app or Steam).
+
 ![Firing Range](img/range.jpg)
 
 | | |
