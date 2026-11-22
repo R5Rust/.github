@@ -21,10 +21,12 @@ Rendering, lighting, collision, movement, weapons and ziplines ported from the g
 
 ![The Firing Range in R5Rust](img/range.jpg)
 
-| | |
-|:---:|:---:|
-| ![Town](img/town.jpg) | ![Overview](img/overview.jpg) |
-| FR//02 and the town | The range from above |
+<table>
+<tr>
+<td align="center" width="50%"><img src="img/town.jpg" alt="FR//02 and the town"><br><sub>FR//02 and the town</sub></td>
+<td align="center" width="50%"><img src="img/overview.jpg" alt="The range from above"><br><sub>The range from above</sub></td>
+</tr>
+</table>
 
 <sub>Straight from the current build: no HUD, no edits.</sub>
 
@@ -42,15 +44,16 @@ Questions, bugs, clips: **[Discord](https://discord.gg/kcmDzhJfk8)**.
 
 ## What's in it
 
-| | |
-|---|---|
-| **Rendering** | The retail map and materials with the S30 shader code: lightmaps, light probes, cubemaps, cascaded sun shadows, triplanar rock blending, HDR sky + sun, auto exposure, bloom, the grading LUT, the game's static-prop fade and LOD rules |
-| **Movement** | PlayerMove, walk, air, duck, slide, step, mantle, wall climb, wall jump and the lurch, ported from the binary; tracks real R5Flowstate within a few u/s |
-| **Ziplines** | The map's ziplines with the game's use search, mount, ride and detach rules, and the use prompt |
-| **Weapons** | R-99 in first person: viewmodel animation, recoil, sounds, muzzle flash, impact decals; heirlooms |
-| **Loot** | The Firing Range's racks, ground loot, inventory and pickups |
-| **Collision** | The game's own BVH collision and static-prop collision trees, not render triangles |
-| **Next** | Fog, water, zipline hands and view roll, then multiplayer (client + dedicated server) |
+- **Rendering:** the retail map and materials with the S30 shader code: lightmaps, light probes, cubemaps, cascaded
+  sun shadows, triplanar rock blending, HDR sky + sun, auto exposure, bloom, the grading LUT, the game's static-prop
+  fade and LOD rules.
+- **Movement:** PlayerMove, walk, air, duck, slide, step, mantle, wall climb, wall jump and the lurch, ported from the
+  binary; tracks real R5Flowstate within a few u/s.
+- **Ziplines:** the map's ziplines with the game's use search, mount, ride and detach rules, and the use prompt.
+- **Weapons:** the R-99 in first person (viewmodel animation, recoil, sounds, muzzle flash, impact decals) and heirlooms.
+- **Loot:** the Firing Range's racks, ground loot, inventory and pickups.
+- **Collision:** the game's own BVH collision and static-prop collision trees, not render triangles.
+- **Next:** fog, water, zipline hands and view roll, then multiplayer (client + dedicated server).
 
 ## Repositories
 
